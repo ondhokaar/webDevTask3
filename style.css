@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+    font-family: 'VT323', monospace;
+    font-size: larger;
+}
+
+input {
+    text-align: center;
+}
+
+.entry {
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-left: 10px;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.datatbl {
+    background-color: cornflowerblue;
+    height: 500px;
+    border: 10px solid blue;
+    overflow-y: scroll;
+}
+
+table {
+    background-color: rgb(162, 162, 189);
+    border: 2px dotted darkslategrey;
+    border-collapse: separate;
+    position: relative;
+}
+
+th,
+td {
+    font-weight: lighter;
+    border: 2px dashed white;
+    color: black;
+    font-size: x-large;
+}
+
+th {
+    background-color: blue;
+    border: 2px dashed white;
+    color: white;
+    top: 0px;
+    position: sticky;
+}
+
+.datatbl::-webkit-scrollbar {
+    width: 20px;
+    border: 2px solid snow;
+    /* width of the entire scrollbar */
+}
+
+.datatbl::-webkit-scrollbar-track {
+    background: silver;
+}
+
+.datatbl::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border: 3px solid rgb(235, 241, 247);
+}
+
+.footer {
+    background-color: blue;
+    color: antiquewhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
